@@ -21,6 +21,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description: `Media kit for ${content.creator.name}: audience, platform reach, past campaigns, collaboration packages and contact details.`,
     path: "/media-kit",
     siteName: content.creator.name,
+    image: "/media-kit/opengraph-image",
   })
 }
 

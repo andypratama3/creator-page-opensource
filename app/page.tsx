@@ -10,6 +10,7 @@ import { Performance } from "@/components/site/performance"
 import { PlatformStats } from "@/components/site/platform-stats"
 import { Services } from "@/components/site/services"
 import { Testimonials } from "@/components/site/testimonials"
+import { SiteJsonLd } from "@/components/site/json-ld"
 import { getSiteContent } from "@/lib/site-content"
 
 export const dynamic = "force-dynamic"
@@ -18,6 +19,7 @@ export default async function Page() {
   const content = await getSiteContent()
   return (
     <div className="grain min-h-dvh">
+      <SiteJsonLd creator={content.creator} />
       <Navbar creator={content.creator} />
       <main>
         <Hero creator={content.creator} />

@@ -31,6 +31,8 @@ export async function PUT(req: Request) {
   }
   const { persisted } = await saveSiteContent(body)
   revalidatePath("/", "layout")
+  revalidatePath("/opengraph-image")
+  revalidatePath("/media-kit/opengraph-image")
   return NextResponse.json({ ok: true, persisted, storage: storageKind() })
 }
 

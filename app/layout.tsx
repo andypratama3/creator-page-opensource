@@ -3,6 +3,7 @@ import type { Metadata, Viewport } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 import { Toaster } from "@/components/ui/sonner"
 import { getSiteContent } from "@/lib/site-content"
+import { siteUrl } from "@/lib/seo"
 import "./globals.css"
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-geist", display: "swap" })
@@ -12,9 +13,11 @@ export async function generateMetadata(): Promise<Metadata> {
   const content = await getSiteContent()
   const c = content.creator
   const desc = `${c.name} — ${c.role}. ${c.intro}`
+  const siteTitle = `${c.name} — Creator & Affiliate Marketer`
   return {
+    metadataBase: new URL(siteUrl),
     title: {
-      default: `${c.name} — Creator & Affiliate Marketer`,
+      default: siteTitle,
       template: `%s — ${c.name}`,
     },
     description: desc,
@@ -25,18 +28,26 @@ export async function generateMetadata(): Promise<Metadata> {
       "brand collaborations",
       "TikTok creator",
       "Instagram creator",
+      ...c.niche,
       c.name,
+      c.role,
     ],
     openGraph: {
-      title: `${c.name} — Creator & Affiliate Marketer`,
+      title: siteTitle,
       description: desc,
       type: "website",
+      url: "/",
+      siteName: c.name,
+      locale: "en_US",
+      images: [{ url: "/opengraph-image" }],
     },
     twitter: {
       card: "summary_large_image",
-      title: `${c.name} — Creator & Affiliate Marketer`,
+      title: siteTitle,
       description: desc,
+      images: ["/opengraph-image"],
     },
+    alternates: { canonical: "/" },
     icons: {
       icon: [
         { url: "/icon-light-32x32.png", media: "(prefers-color-scheme: light)" },

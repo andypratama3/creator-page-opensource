@@ -1,6 +1,35 @@
 import { siteUrl } from "@/lib/seo"
 import type { Brand, Creator, PlatformStat } from "@/lib/content-types"
 
+export function SiteJsonLd({ creator }: { creator: Creator }) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        name: `${creator.name} — Creator & Affiliate Marketer`,
+        url: siteUrl,
+      },
+      {
+        "@type": "Person",
+        name: creator.name,
+        jobTitle: creator.role,
+        description: creator.intro,
+        address: creator.location,
+        email: `mailto:${creator.email}`,
+        url: siteUrl,
+        sameAs: [creator.links.tiktok, creator.links.instagram, creator.links.youtube].filter(Boolean),
+      },
+    ],
+  }
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
+  )
+}
+
 export function MediaKitJsonLd({
   creator,
   brands,
