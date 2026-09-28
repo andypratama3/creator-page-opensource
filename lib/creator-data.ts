@@ -187,8 +187,6 @@ export const navLinks = [
 
 // ---- Media kit extensions (placeholder values, safe to swap) ----
 
-export const faqPageUrl = "/#contact"
-
 export const genderTones = ["bg-brand", "bg-brand-2", "bg-brand-3"] as const
 
 export const audience = {
@@ -220,6 +218,3 @@ export const audience = {
   ],
   interests: ["Tech gadgets", "Skincare", "Home setup", "Lifestyle", "Deals", "UGC"],
 } as const
-
-// Alias kept for media-kit readability — same source as `brands`.
-export const brandNames = brands

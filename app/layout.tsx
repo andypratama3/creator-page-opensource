@@ -18,7 +18,6 @@ export async function generateMetadata(): Promise<Metadata> {
       template: `%s — ${c.name}`,
     },
     description: desc,
-    generator: "v0.app",
     keywords: [
       "content creator",
       "affiliate marketing",

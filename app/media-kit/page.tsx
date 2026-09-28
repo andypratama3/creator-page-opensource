@@ -14,14 +14,13 @@ import { ThemeToggleIsland } from "@/components/site/theme-toggle-island"
 
 export const dynamic = "force-dynamic"
 
-const faqPageUrl = "/#contact"
-
 export async function generateMetadata(): Promise<Metadata> {
   const content = await getSiteContent()
   return pageMetadata({
     title: "Media Kit",
     description: `Media kit for ${content.creator.name}: audience, platform reach, past campaigns, collaboration packages and contact details.`,
     path: "/media-kit",
+    siteName: content.creator.name,
   })
 }
 
@@ -433,8 +432,8 @@ export default async function MediaKitPage() {
               </ul>
               <p className="mt-6 border-t border-hairline pt-4 text-xs leading-relaxed text-ink-subtle">
                 Full rate card, usage rights and exclusivity terms are quoted per campaign —{" "}
-                <a href={faqPageUrl} className="font-medium text-brand underline underline-offset-2">
-                  see the FAQ
+                <a href="/#contact" className="font-medium text-brand underline underline-offset-2">
+                  just send a brief
                 </a>
                 .
               </p>
