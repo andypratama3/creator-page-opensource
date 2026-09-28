@@ -1,0 +1,404 @@
+{
+  "creator": {
+    "availability": "Available for brand collaborations",
+    "email": "hello@andypratama.co",
+    "first": "Andy",
+    "intro": "I create authentic short-form content that helps brands reach the right audience and turn attention into measurable action.",
+    "links": {
+      "github": "https://github.com",
+      "instagram": "https://instagram.com",
+      "linkedin": "https://linkedin.com",
+      "tiktok": "https://tiktok.com",
+      "twitter": "https://x.com",
+      "whatsapp": "https://wa.me/6280000000000",
+      "youtube": "https://youtube.com"
+    },
+    "location": "Jakarta, Indonesia",
+    "name": "Andy Pratama",
+    "niche": [
+      "Technology",
+      "Lifestyle"
+    ],
+    "positioning": "Short-form creator focused on honest product storytelling — reviews, lifestyle integration and affiliate-first content that holds attention and drives clicks.",
+    "responseTime": "24–48 hours",
+    "role": "Creator & Affiliate Marketer",
+    "socials": {
+      "github": "@andypratama",
+      "instagram": "@andy.pratama",
+      "linkedin": "andypratama",
+      "tiktok": "@andypratama",
+      "twitter": "@andypratama",
+      "youtube": "@andypratama"
+    },
+    "tagline": "Content that connects. Products that convert.",
+    "timezone": "GMT+7 · Jakarta",
+    "yearsCreating": 5,
+    "portrait": "/uploads/1790630402433-whatsapp-image-2026-09-27-at-23.37.52.jpeg"
+  },
+  "platformStats": [
+    {
+      "label": "Followers",
+      "platform": "TikTok",
+      "sub": "4.8M monthly views",
+      "suffix": "K+",
+      "value": 125
+    },
+    {
+      "label": "Followers",
+      "platform": "Instagram",
+      "sub": "2.1M monthly reach",
+      "suffix": "K+",
+      "value": 62
+    },
+    {
+      "label": "Subscribers",
+      "platform": "YouTube",
+      "sub": "1.4M monthly views",
+      "suffix": "K+",
+      "value": 38
+    },
+    {
+      "label": "Conversions",
+      "platform": "Affiliate",
+      "sub": "Across 40+ campaigns",
+      "suffix": "+",
+      "value": 3200
+    }
+  ],
+  "metrics": [
+    {
+      "label": "Avg. engagement rate",
+      "suffix": ".4%",
+      "trend": "+1.8pt vs. niche avg.",
+      "value": 7
+    },
+    {
+      "label": "Total monthly reach",
+      "suffix": ".8M",
+      "trend": "+38% last 90 days",
+      "value": 4
+    },
+    {
+      "label": "Avg. link click-through",
+      "suffix": ".2%",
+      "trend": "+0.9pt QoQ",
+      "value": 5
+    },
+    {
+      "label": "Affiliate conversion rate",
+      "suffix": ".6%",
+      "trend": "Above category median",
+      "value": 3
+    }
+  ],
+  "reachSeries": [
+    32,
+    38,
+    41,
+    47,
+    44,
+    52,
+    58,
+    61,
+    57,
+    68,
+    74,
+    82
+  ],
+  "featuredContent": [
+    {
+      "engagement": "8.2%",
+      "href": "https://tiktok.com",
+      "platform": "TikTok",
+      "product": "Wireless Earbuds",
+      "thumb": "/content-1.png",
+      "title": "3 things I wish I knew before buying this",
+      "views": "2.4M"
+    },
+    {
+      "engagement": "6.9%",
+      "href": "https://instagram.com",
+      "platform": "Instagram",
+      "product": "Skincare Serum",
+      "thumb": "/content-2.png",
+      "title": "My honest 30-day skincare results",
+      "views": "980K"
+    },
+    {
+      "engagement": "7.5%",
+      "href": "https://youtube.com",
+      "platform": "YouTube",
+      "product": "Desk Accessories",
+      "thumb": "/content-3.png",
+      "title": "The desk setup that actually made me productive",
+      "views": "1.3M"
+    }
+  ],
+  "categories": [
+    {
+      "body": "Authentic product experiences designed to build trust.",
+      "n": "01",
+      "title": "Product Reviews"
+    },
+    {
+      "body": "Natural product integration into everyday life.",
+      "n": "02",
+      "title": "Lifestyle Content"
+    },
+    {
+      "body": "Useful educational content that demonstrates products.",
+      "n": "03",
+      "title": "Tutorials"
+    },
+    {
+      "body": "Authentic user-generated content for brand campaigns.",
+      "n": "04",
+      "title": "UGC"
+    },
+    {
+      "body": "Content optimized for product discovery and conversion.",
+      "n": "05",
+      "title": "Affiliate Content"
+    },
+    {
+      "body": "High-quality product introduction and first impressions.",
+      "n": "06",
+      "title": "Unboxing"
+    }
+  ],
+  "brands": [
+    {
+      "campaign": "Product launch",
+      "name": "Northwind",
+      "result": "1.2M views"
+    },
+    {
+      "campaign": "Always-on UGC",
+      "name": "Lumen",
+      "result": "6.8% eng."
+    },
+    {
+      "campaign": "Affiliate drop",
+      "name": "Verre",
+      "result": "3.2K clicks"
+    },
+    {
+      "campaign": "Seasonal",
+      "name": "Kai Studio",
+      "result": "890K reach"
+    },
+    {
+      "campaign": "Review series",
+      "name": "Monogram",
+      "result": "4.1% CTR"
+    },
+    {
+      "campaign": "Long-term",
+      "name": "Atlas",
+      "result": "12 videos"
+    }
+  ],
+  "caseStudy": {
+    "brand": "Northwind Audio",
+    "campaign": "Flagship earbuds launch",
+    "deliverables": [
+      "3 TikTok videos",
+      "2 Instagram Reels",
+      "5 Story frames"
+    ],
+    "objective": "Increase launch-week awareness among Gen Z audiences.",
+    "results": [
+      {
+        "label": "Total views",
+        "value": "1.2M+"
+      },
+      {
+        "label": "Engagement",
+        "value": "8.4%"
+      },
+      {
+        "label": "Link clicks",
+        "value": "3,200+"
+      }
+    ],
+    "strategy": [
+      "Short-form educational content on real-world usage",
+      "Authentic storytelling around sound quality",
+      "Clear CTA to affiliate landing page"
+    ]
+  },
+  "services": [
+    {
+      "body": "Custom content that features your product naturally.",
+      "n": "01",
+      "title": "Sponsored Content"
+    },
+    {
+      "body": "Creator-style content for your brand's own channels.",
+      "n": "02",
+      "title": "UGC Content"
+    },
+    {
+      "body": "Performance-driven content using affiliate links.",
+      "n": "03",
+      "title": "Affiliate Campaign"
+    },
+    {
+      "body": "Honest, informative, product-focused content.",
+      "n": "04",
+      "title": "Product Review"
+    },
+    {
+      "body": "Launch campaigns designed to generate awareness.",
+      "n": "05",
+      "title": "Product Launch"
+    },
+    {
+      "body": "Ongoing content partnerships with your brand.",
+      "n": "06",
+      "title": "Long-Term Partnership"
+    }
+  ],
+  "packages": [
+    {
+      "featured": false,
+      "features": [
+        "Concept & script",
+        "Production",
+        "Editing",
+        "1 revision"
+      ],
+      "name": "Starter",
+      "note": "1 short-form video",
+      "price": "$450"
+    },
+    {
+      "featured": true,
+      "features": [
+        "Creative direction",
+        "Production",
+        "Editing",
+        "Cross-platform adaptation"
+      ],
+      "name": "Growth",
+      "note": "3 short-form videos",
+      "price": "$1,200"
+    },
+    {
+      "featured": false,
+      "features": [
+        "Strategy",
+        "Multiple deliverables",
+        "Multi-platform",
+        "Reporting"
+      ],
+      "name": "Campaign",
+      "note": "Let's discuss",
+      "price": "Custom"
+    }
+  ],
+  "testimonials": [
+    {
+      "company": "Northwind Audio",
+      "name": "Sarah Lim",
+      "quote": "Working with Andy made our product launch feel authentic while still delivering measurable results. The content overperformed our targets.",
+      "title": "Marketing Manager"
+    },
+    {
+      "company": "Lumen",
+      "name": "Devon Rae",
+      "quote": "Clear communication, sharp creative instincts, and content that actually converts. One of the few creators who thinks like a marketer.",
+      "title": "Brand Partnerships"
+    },
+    {
+      "company": "Verre",
+      "name": "Priya Nair",
+      "quote": "The reporting after the campaign was genuinely useful. We knew exactly what worked and reinvested into a long-term partnership.",
+      "title": "Growth Lead"
+    }
+  ],
+  "audience": {
+    "age": [
+      {
+        "label": "18–24",
+        "value": 48
+      },
+      {
+        "label": "25–34",
+        "value": 32
+      },
+      {
+        "label": "35–44",
+        "value": 14
+      },
+      {
+        "label": "45+",
+        "value": 6
+      }
+    ],
+    "averages": [
+      {
+        "label": "Avg. views / video",
+        "value": "380K"
+      },
+      {
+        "label": "Avg. engagement rate",
+        "value": "7.4%"
+      },
+      {
+        "label": "Avg. link CTR",
+        "value": "5.2%"
+      },
+      {
+        "label": "Posting cadence",
+        "value": "4–5x / week"
+      }
+    ],
+    "gender": [
+      {
+        "label": "Female",
+        "value": 54
+      },
+      {
+        "label": "Male",
+        "value": 43
+      },
+      {
+        "label": "Other",
+        "value": 3
+      }
+    ],
+    "interests": [
+      "Tech gadgets",
+      "Skincare",
+      "Home setup",
+      "Lifestyle",
+      "Deals",
+      "UGC"
+    ],
+    "locations": [
+      {
+        "label": "Jakarta",
+        "value": 38
+      },
+      {
+        "label": "Surabaya",
+        "value": 18
+      },
+      {
+        "label": "Bandung",
+        "value": 16
+      },
+      {
+        "label": "Medan",
+        "value": 12
+      },
+      {
+        "label": "Other",
+        "value": 16
+      }
+    ],
+    "medianAge": 24,
+    "updated": "September 2026"
+  }
+}
