@@ -11,7 +11,12 @@ function authorized(req: Request): boolean {
   return req.headers.get("x-admin-password") === adminPassword()
 }
 
-export async function GET() {
+export async function GET(req: Request) {
+  // Authenticated so the admin login validates the password immediately
+  // (public pages read content server-side, never via this endpoint).
+  if (!authorized(req)) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
+  }
   const content = await getSiteContent()
   return NextResponse.json(content)
 }
